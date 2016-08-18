@@ -1,0 +1,8 @@
+D:\projects\c#\DependencyInjectionLearn\DependencyInjectionLearn\bin\Debug\DependencyInjectionLearn.exe.config
+D:\projects\c#\DependencyInjectionLearn\DependencyInjectionLearn\bin\Debug\DependencyInjectionLearn.exe
+D:\projects\c#\DependencyInjectionLearn\DependencyInjectionLearn\bin\Debug\DependencyInjectionLearn.pdb
+D:\projects\c#\DependencyInjectionLearn\DependencyInjectionLearn\obj\Debug\DependencyInjectionLearn.csprojResolveAssemblyReference.cache
+D:\projects\c#\DependencyInjectionLearn\DependencyInjectionLearn\obj\Debug\DependencyInjectionLearn.exe
+D:\projects\c#\DependencyInjectionLearn\DependencyInjectionLearn\obj\Debug\DependencyInjectionLearn.pdb
+D:\projects\c#\DependencyInjectionLearn\DependencyInjectionLearn\bin\Debug\Ninject.dll
+D:\projects\c#\DependencyInjectionLearn\DependencyInjectionLearn\bin\Debug\Ninject.xml
