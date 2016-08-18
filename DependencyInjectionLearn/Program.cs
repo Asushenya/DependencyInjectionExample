@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Ninject;
+using Ninject.Modules;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,11 +40,24 @@ namespace DependencyInjectionLearn
             Weapon.Kill();
         }
     }
+
+    public class WeaponNinjectModule :NinjectModule
+    {
+        public override void Load()
+        {
+            this.Bind<IWeapon>().To<Bazuka>();
+        }
+    }
+    
     class Program
-    {   
+    {
+        public static IKernel AppKernel;
         static void Main(string[] args)
         {
-            Warrior warrior = new Warrior(new Sword());
+            AppKernel = new StandardKernel(new WeaponNinjectModule());
+
+            var warrior = AppKernel.Get<Warrior>();
+
             warrior.Kill();
 
         }
